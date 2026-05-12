@@ -1,4 +1,4 @@
-# ⚽ FPL Analytics — Power BI Dashboard
+# ⚽ FPL Analytics — Power BI Report
 
 A Fantasy Premier League analytics project that pulls live data from the **official FPL API**, processes it with Python, and visualises it in **Power BI**.
 
@@ -21,7 +21,7 @@ FPL-Analysis/
 │   ├── ...                         # One file per gameweek
 │   └── player_scores.csv           # Cumulative composite scores per GW
 │
-└── fpl_new.pbix                    # Power BI dashboard
+└── fpl_new.pbix                    # Power BI file
 ```
 
 ---
@@ -160,7 +160,7 @@ pip install pandas numpy requests
 
 ---
 
-## 📊 Power BI Dashboard
+## 📊 Power BI Report
 
 The `.pbix` file connects to the three CSV outputs:
 
